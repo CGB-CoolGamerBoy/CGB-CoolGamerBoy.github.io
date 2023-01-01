@@ -85,7 +85,7 @@ ScriptsTab:Button{
 			"CGB Hub | Vynixius",
 			"Successfully executed Vynixius",
 			5
-		),
+		)
 		_G.discord_invite = "vynixius"
 		loadstring(game:HttpGet("https://cgb-coolgamerboy.github.io/CGB-CoolGamerBoy/CGBHub/Discord.lua", true))()
 		wait(3)
