@@ -65,6 +65,14 @@ ScriptsTab:Button{
 			"Successfully Executed Fate's Admin",
 			5
 		)
+		_G.discord_invite = "73kFXJysmH"
+		loadstring(game:HttpGet("https://cgb-coolgamerboy.github.io/CGB-CoolGamerBoy/CGBHub/Discord.lua", true))()
+		wait(3)
+		SendNotification(
+			"Fate's Admin | Discord",
+			"Joining Fate's Discord",
+			5
+		)
 	end
 }
 
@@ -77,8 +85,15 @@ ScriptsTab:Button{
 			"CGB Hub | Vynixius",
 			"Successfully executed Vynixius",
 			5
+		),
+		_G.discord_invite = "vynixius"
+		loadstring(game:HttpGet("https://cgb-coolgamerboy.github.io/CGB-CoolGamerBoy/CGBHub/Discord.lua", true))()
+		wait(3)
+		SendNotification(
+			"Vynixus | Discord",
+			"Joining Vynixus Discord",
+			5
 		)
-
 	end
 }
 
